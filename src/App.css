@@ -1,7 +1,9 @@
+
 .App {
   text-align: center;
   background-color: #141414;
-  color : #FFFF
+  color : #FFFF;
+  height: 1800px;
 }
 .moviecontainer{
   display: flex;
@@ -31,3 +33,4 @@ color : whitesmoke
   .rating-input{
     display: flex;
   }
+ 

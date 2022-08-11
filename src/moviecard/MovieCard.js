@@ -3,7 +3,7 @@ import MovieList from "../movielist/MovieList"
 
 const MovieCard = ({movie}) => {
   return (
-    <div className='container-fluid'>{movie.map( el => <MovieList film={el} key={el.id}/>)}</div>
+    <div className='container-fluid'>{movie.map( el => <MovieList movie={el} key={el.id}/>)}</div>
   )
 }
 

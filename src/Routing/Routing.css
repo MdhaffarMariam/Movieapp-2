@@ -1,0 +1,27 @@
+.Routing-page {
+   background-color: black;
+   background-size: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px}
+.movietitle{
+   color: goldenrod;
+   font-size: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin : 30px
+}
+p {
+   font-size: 15px;
+  margin : 30px;
+  text-align: center;
+  text-decoration: wavy;
+  text-transform: capitalize;
+}
+ header {
+   display: none;
+}
+#Routing-myPage footer {
+   display : none;
+}

@@ -1,12 +1,13 @@
 import React from 'react'
 import './MovieList.css'
-const MovieList = ({film}) => {
+import {Link} from 'react-router-dom'
+const MovieList = ({movie}) => {
   return (
     <div className='carte'>
-        <h1>{film.title}</h1>
-        {/* <p>{film.description}</p> */}
-        <img src={film.posterURL}  alt='movie'/>
-        <h2>{film.rating}</h2>
+        <h1>{movie.title}</h1>
+        <img src={movie.posterURL}  alt='movie'/>
+        <h2>{movie.rating}</h2>
+        <Link to ={`/Routing/${movie.id}`}> Watch trailer </Link>
     </div>
   )
 }
